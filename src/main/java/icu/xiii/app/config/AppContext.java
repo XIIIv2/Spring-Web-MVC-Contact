@@ -46,7 +46,7 @@ public class AppContext {
         properties.put("hibernate.show_sql", env.getProperty("hibernate.show_sql", "false"));
         properties.put("hibernate.format_sql", env.getProperty("hibernate.format_sql", "false"));
         properties.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto", "validate"));
-        properties.put("hibernate.dialect", env.getProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect"));
+        //properties.put("hibernate.dialect", env.getProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect"));
         return properties;
     }
 
