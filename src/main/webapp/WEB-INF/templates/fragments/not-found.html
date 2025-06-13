@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body class="bg-body-secondary">
+<div th:fragment="not-found">
+  <div class="container-sm px-5 d-flex justify-content-center align-items-center">
+    <div class="m-3 px-5 py-3 bg-white" style="width: 50%;">
+      <h4 class="text-center mb-3 mt-3 text-warning">Requested contact was not found!</h4>
+      <a th:href="@{/contacts}" class="btn btn-outline-primary btn-sm">
+        <i class="bi bi-arrow-left"></i>&nbsp;Go to list</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
